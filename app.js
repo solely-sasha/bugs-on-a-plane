@@ -21,7 +21,12 @@ function formAlert() {
     }
 
 
-    alert("First Name: " + firstName + "\nLast Name: " + lastName + "\nAge: " + age + "\nGender: " + gender + "\nTravel Location: " + location + "\nDiet: " + diet + "\nAwesome, now if you die, it won't be an accident..");
+//     alert("First Name: " + firstName + "\nLast Name: " + lastName + "\nAge: " + age + "\nGender: " + gender 
+// + "\nTravel Location: " + location + "\nDiet: " + diet + "\nAwesome, now if you die, it won't be an accident..");
+
+alert(`First Name: ${firstName} Last Name: ${lastName} Age: ${age} Gender: ${gender} Travel Location: ${location} Diet: ${diet} 
+Awesome, now if you die, it won't be an accident...`)
+
 }
 
 
